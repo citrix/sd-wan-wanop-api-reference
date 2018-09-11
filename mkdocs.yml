@@ -1,0 +1,65 @@
+site_name: Citrix NetScaler SD-WAN WANOP 10.0 API Reference
+site_description: Citrix NetScaler SD-WAN WANOP 10.0 API Reference
+theme_dir: citrix-sdk
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: true
+  - toc:
+     anchorlink: true
+
+pages:
+  - Getting Started Guide: index.md
+  - Configuration: 
+    - aaa_server: configuration/aaa-server.md
+    - additional_features: configuration/additional-features.md
+    - alert_options: configuration/alert-options.md
+    - alert_retention: configuration/alert-retention.md
+    - application: configuration/application.md
+    - boost_setting: configuration/boost-setting.md
+    - callhome: configuration/callhome.md
+    - cifs_features: configuration/cifs-features.md
+    - datetime_params: configuration/datetime-params.md
+    - delegate_users: configuration/delegate-users.md
+    - groups: configuration/groups.md
+    - http_params: configuration/http-params.md
+    - license_file: configuration/license-file.md
+    - license_info: configuration/license-info.md
+    - licensing_features: configuration/licensing-features.md
+    - link_definition: configuration/link-definition.md
+    - local_licenses: configuration/local-licenses.md
+    - log_params: configuration/log-params.md
+    - log_stats: configuration/log-stats.md
+    - ntp_server: configuration/ntp-server.md
+    - plugin_acc_rules: configuration/plugin-acc-rules.md
+    - plugin_config: configuration/plugin-config.md
+    - plugin_diag: configuration/plugin-diag.md
+    - qos_policies: configuration/qos-policies.md
+    - radius_params: configuration/radius-params.md
+    - radius_servers: configuration/radius-servers.md
+    - sdx_license: configuration/sdx-license.md
+    - service_class: configuration/service-class.md
+    - session_params: configuration/session-params.md
+    - snmp: configuration/snmp.md
+    - snmp_manager: configuration/snmp-manager.md
+    - snmp_trap_dest: configuration/snmp-trap-dest.md
+    - snmp_user: configuration/snmp-user.md
+    - snmp_view: configuration/snmp-view.md
+    - ssh: configuration/ssh.md
+    - ssl_ca: configuration/ssl-ca.md
+    - ssl_cert_keys: configuration/ssl-cert-keys.md
+    - ssl_partner: configuration/ssl-partner.md
+    - ssl_profile: configuration/ssl-profile.md
+    - ssl_store: configuration/ssl-store.md
+    - syslog_server: configuration/syslog-server.md
+    - system_info: configuration/system-info.md
+    - tacacs_params: configuration/tacacs-params.md
+    - tacacs_servers: configuration/tacacs-servers.md
+    - traffic_features: configuration/traffic-features.md
+    - tune_setting: configuration/tune-setting.md
+    - user_account: configuration/user-account.md
+    - windows_domain: configuration/windows-domain.md
+  - Statistics:
+    - accel_connections: statistics/accel-connections.md
+    - unaccel_connections: statistics/unaccel-connections.md
+  - Error Listing: error-listing.md
