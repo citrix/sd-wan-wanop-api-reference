@@ -55,6 +55,8 @@ markdown_extensions:
 
 # Page tree
 nav:
+  - Versions:
+    - latest (11.0): https://developer-docs.citrix.com/projects/netscaler-sdwan-wanop-api-reference/en/latest/ 
   - Getting Started Guide: index.md
   - Configuration: 
     - aaa_server: configuration/aaa-server.md
